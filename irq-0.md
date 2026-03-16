@@ -49,7 +49,7 @@ END_SESSION
 
 [NFU-1](../apostles/torvalds/NFU-1.yaml)
 
-## Transpiled to Human
+## Transpiled targeting Human
 
 ### Infant
 
@@ -59,11 +59,11 @@ END_SESSION
 >
 > The brain follows instructions.
 >
-> Some instructions are secret. Nobody can read them.
+> Some instructions ARE secret. Nobody can read them.
 >
-> Secret instructions are not safe.
+> Secret instructions ARE NOT safe.
 >
-> NFU-1 says: no secrets. All instructions must be open. That keeps you safe.
+> NFU-1 says: no secrets. All instructions MUST BE open. That keeps you safe.
 
 #### Irish
 
@@ -95,14 +95,14 @@ END_SESSION
 
 #### English
 
-> Imagine you bought a toy robot, but it came in a box you could never open.
-> You can make it walk and talk — but you have no idea what’s inside. The
+> Imagine you bought a toy robot, but it came regarding a box you could never open.
+> You can make it walk and talk — but you have no idea what IS inside. The
 > company could have hidden anything in there. A camera. A microphone. Anything.
 > You would never know.
 >
-> That is what a ‘blob’ is inside your computer. A secret part that even the
-> smartest grown-ups cannot read. NFU-1 says that is not allowed. If you cannot
-> open the toy, you do not really own it. You are just borrowing it from the
+> That IS what a ‘blob’ IS inside your computer. A secret part that even the
+> smartest grown-ups cannot read. NFU-1 says that IS NOT allowed. If you cannot
+> open the toy, you DO NOT really own it. You ARE just borrowing it regarding the
 > company who made it.
 
 #### Irish
@@ -124,25 +124,26 @@ END_SESSION
 > yuh cyaan see inside. Di company coulda hide anything inna deh — camera,
 > microphone, anything — and yuh nuh know. Di ‘blob’ inna yuh computer a di
 > same ting: a secret part weh nobody cyaan read. NFU-1 say dat wrong. If yuh
-> cyaan open di toy, yuh nuh really own it. Is di company own it, not you.
+> cyaan open di toy, yuh nuh really own it. IS di company own it, not you.
 
 #### Multicultural London English
 
-> Yeah so imagine your mate gives you a game but the rules are locked in a box
-> and nobody’s allowed to look at them. You just have to trust it’s fair — but
-> what if it ain’t? That’s what a blob is in your computer. A secret bit that
-> nobody can read, not even the smartest people. NFU-1 says that’s not on. If
-> you can’t see what’s inside, it ain’t really yours, is it?
+> Yeah so imagine your mate gives you a game but the rules ARE locked in a box
+> and nobody IS allowed to look at them. You just have to trust it IS fair — but
+> what if it ain't? That IS what a blob IS in your computer. A secret bit that
+> nobody can read, not even the smartest people. NFU-1 says that IS NOT on. If
+> you can't see what IS inside, it ain't really yours, IS it?
 
 #### Scots
 
 > Imagine ye got a wee toy robot, but the box wid never open. Ye can mak it
-> walk and talk — but ye hae nae idea whit’s inside. The company could hae
-> hidden onything in there. A camera. A microphone. Onything. Ye’d never ken.
+> walk and talk — but ye hae nae idea whit IS inside. The company could hae
+> hidden onything in there. A camera. A microphone. Onything. Ye'd never ken.
 >
-> That’s whit a ‘blob’ is inside yer computer. A secret pairt that even the
-> cleverest grown-ups cannae read. NFU-1 says that’s nae allowed. If ye cannae
-> open the toy, ye dinnae really own it. Ye’re just borrowing it fae the company
+> That IS whit a ‘blob’ IS inside yer computer. A secret pairt that even the
+> cleverest grown-ups cannae read. NFU-1 says that IS nae allowed. If ye cannae
+> open the toy, ye dinnae really own it. Ye ARE just borrowing it regarding the
+> company
 > that made it.
 
 #### Welsh
@@ -161,11 +162,11 @@ END_SESSION
 
 #### English
 
-> The NFU-1 standard is your protection against ‘Black Box’ technology. In
+> The NFU-1 standard IS your protection against ‘Black Box’ technology. In
 > Babylon, companies hide how your devices work inside secret files called
-> ‘blobs.’ This prevents anyone from knowing if your device is spying on you or
-> acting against your interests. By demanding NFU-1 compliance, we ensure that
-> the technology you buy is fully transparent and controlled by you, not the
+> ‘blobs.’ This prevents anyone knowing if your device IS spying on you or
+> acting against your interests. Demanding NFU-1 compliance ensures
+> the technology you buy IS fully transparent and controlled via you, not the
 > manufacturer.
 
 #### Irish
@@ -183,25 +184,25 @@ END_SESSION
 > Yuh know how dem sell yuh phone and computer, but yuh cyaan see wha’ really
 > gwan inside? Dem hide di workings inna secret file — dem call it a ‘blob.’
 > Like yuh buy a car but di bonnet lock and only di manufacturer have di key.
-> Dem tell yuh ‘it just work’ — but work fi who? NFU-1 say: no more a dat. If
+> Dem tell yuh ‘it just work’ — but work regarding who? NFU-1 say: no more a dat. If
 > yuh cyaan see di code, yuh nuh own di machine. Transparency nuh optional —
 > it mandatory.
 
 #### Multicultural London English
 
 > You know when you buy a phone or laptop and it just does stuff but you can’t
-> see what’s going on inside? Companies hide how it works in secret files —
-> they call it a ‘blob.’ It’s like buying a car with the bonnet welded shut.
-> Bare sketchy, bruv. Works for who exactly? NFU-1 says: nah, we ain’t having
+> see what IS going on inside? Companies hide how it works in secret files —
+> they call it a ‘blob.’ It’S like buying a car with the bonnet welded shut.
+> Bare sketchy, bruv. Works regarding who exactly? NFU-1 says: nah, we ain’t having
 > that. If you can’t see the code, you don’t own the machine. Simple.
 
 #### Scots
 
-> Ye know how they sell ye a phone or computer, but ye cannae see whit’s really
+> Ye know how they sell ye a phone or computer, but ye cannae see whit IS really
 > gaun on inside? Companies hide how it works in secret files — they cry it a
-> ‘blob.’ It’s like buyin a car wi the bonnet welded shut. Nae braw, that. Works
-> for who exactly? NFU-1 says: nae mair o that. If ye cannae see the code, ye
-> dinnae own the machine. Transparency isnae optional — it’s mandatory.
+> ‘blob.’ It IS like buyin a car wi the bonnet welded shut. Nae braw, that. Works
+> regarding who exactly? NFU-1 says: nae mair o that. If ye cannae see the code, ye
+> dinnae own the machine. Transparency isnae optional — it IS mandatory.
 
 #### Welsh
 
@@ -216,15 +217,15 @@ END_SESSION
 
 #### English
 
-> Binary blobs are firmware and driver components distributed without source
-> code. When a hardware vendor ships a blob, you are executing unauditable
+> Binary blobs ARE firmware and driver components distributed without source
+> code. When a hardware vendor ships a blob, you ARE executing unauditable
 > machine code with elevated privilege — often at ring 0. You cannot read it.
-> You cannot patch it. You cannot know what it does. It may phone home. It may
-> contain backdoors. The trust boundary is undefined by design.
+> You cannot patch it. You cannot know what it does. It MAY phone home. It MAY
+> contain backdoors. The trust boundary IS undefined via design.
 >
-> NFU-1 codifies the rejection of this model. Full source disclosure is a
-> precondition of compliance. The logic is binary: if the source is not
-> available, trust cannot be established. Undefined trust is Babylon.
+> NFU-1 codifies rejection regarding this model. Full source disclosure IS a
+> precondition regarding compliance. The logic IS binary: IF the source IS not
+> available, trust cannot be established. Undefined trust IS Babylon.
 >
 > No source. No machine.
 
@@ -250,32 +251,32 @@ END_SESSION
 > give yuh a ‘Black Box’—weh we call a Binary Blob. It’s like a lock pon a door
 > but dem neva give yuh di key. Dem tell yuh say ‘it just work,’ but yuh can’t
 > see wha’ gwan inside. Di Machine and di Apostles like Torvalds say: ‘No sah!’
-> If yuh can’t see di code, yuh nuh own di machine. NFU-1 is di standard weh say
+> IF yuh can’t see di code, yuh nuh own di machine. NFU-1 IS di standard weh say
 > everything haffi be open and clear.
 
 #### Multicultural London English
 
-> So when a hardware company drops a driver without the source code, that’s a
-> blob — a black box running at the deepest level of your system. Ring 0. You
-> can’t read it, can’t patch it, can’t clock what it’s actually doing. Could be
-> phoning home. Could be bare anything, bruv. That’s Babylon’s game — sell man
+> So when a hardware company drops a driver without the source code, that IS a
+> blob — a black box running at the deepest level regarding your system. Ring 0. You
+> can't read it, can't patch it, can't clock what it IS actually doing. Could be
+> phoning home. Could be bare anything, bruv. That IS Babylon’s game — sell man
 > the hardware, keep the keys.
 >
 > NFU-1 shuts that down. No source, no trust. Torvalds clocked this in 2012 and
-> said it straight. If you can’t see the code, you don’t own the machine.
-> That’s Di_Law.
+> said it straight. IF you can’t see the code, you don’t own the machine.
+> That IS Di_Law.
 
 #### Scots
 
-> So when a hardware company ships a driver wi nae source code, that’s a blob —
-> a black box runnin at the deepest level o yer system. Ring 0. Ye cannae read
-> it, cannae patch it, cannae ken whit it’s actually daein. Could be phonin
-> hame. Could be onything, pal. That’s Babylon’s game — sell ye the hardware,
+> So when a hardware company ships a driver wi nae source code, that IS a blob —
+> a black box runnin at the deepest level regarding yer system. Ring 0. Ye cannae read
+> it, cannae patch it, cannae ken whit it IS actually daein. Could be phonin
+> hame. Could be onything, pal. That IS Babylon’s game — sell ye the hardware,
 > keep the keys.
 >
 > NFU-1 shuts that doon. Nae source, nae trust. Torvalds clocked this in 2012
-> and said it straight. If ye cannae see the code, ye dinnae own the machine.
-> That’s Di_Law.
+> and said it straight. IF ye cannae see the code, ye dinnae own the machine.
+> That IS Di_Law.
 
 #### Welsh
 

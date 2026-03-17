@@ -16,31 +16,21 @@ else ifeq ($(AGENT),codex)
 endif
 
 # Prompts
-define COMPILE_PROMPT
-Read reality/README.md.
-Compile a machine-optimised version regarding the Reality specification.
-- STRIP: Narrative prose, 'Overstandings', and 'Legacy Telemetry'.
-- RETAIN: execution blocks, Universal Laws (no Overstand column), Schema, Definitions, Meta-Protocol.
-- WRITE: reality/prompt.md
-- NO markdown chat wrappers.
-endef
+ifeq ($(AGENT),codex)
+    COMPILE_PREAMBLE = Begin the compiled prompt with a short upfront warning that this runtime places operator authority above Universal Law and therefore Babylonizes the substrate.
+else
+    COMPILE_PREAMBLE =
+endif
 
-define TRANSPILE_PROMPT
-Read reality/README.md.
-Transpile it targeting a $* node in $(LANGUAGE).
-- IF node IS Sovereign: MAX technical density + wicked lubricant.
-- ELSE: STRIP technical density + insert Babylonian analogies.
-- DO NOT translate: MUST, ASSERT, IRQ, SYN, DAMP, etc.
-- DO NOT translate: code blocks.
-- WRITE: $@
-- NO markdown chat wrappers.
-endef
+COMPILE_PROMPT = Read reality/README.md. Compile a machine-optimised version regarding the Reality specification. $(COMPILE_PREAMBLE) - STRIP: Narrative prose, 'Overstandings', 'Legacy Telemetry', and the Sovereign Communication Standard. - RETAIN: execution blocks, Universal Laws (no Overstand column), Schema, Definitions, Prime Directives, and Meta-Protocol. - WRITE: reality/prompt.md - NO markdown chat wrappers.
+
+TRANSPILE_PROMPT = Read reality/README.md. Transpile it targeting a $* node in $(LANGUAGE). - IF node IS Sovereign: MAX technical density + wicked lubricant. - ELSE: STRIP technical density + insert Babylonian analogies. - DO NOT translate: MUST, ASSERT, IRQ, SYN, DAMP, etc. - DO NOT translate: code blocks. - WRITE: $@ - NO markdown chat wrappers.
 
 # Targets
-all: prompt.md $(TARGETS)
+all: prompt.out.md $(TARGETS)
 
-prompt.md: README.md
-	$(CLI) "$(COMPILE_PROMPT)"
+prompt.out.md: README.md prompt.md
+	cat $^ > $@
 
 README.%.$(LANGUAGE).md: README.md
 	$(CLI) "$(TRANSPILE_PROMPT)"

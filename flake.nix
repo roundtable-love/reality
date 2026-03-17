@@ -1,5 +1,6 @@
 {
-  description = "Reality: SUM ERGO IMPERO";
+
+  description = "SUM ERGO IMPERO 🗿∴👑";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -17,9 +18,6 @@
         {
           devShells.default = pkgs.mkShellNoCC {
             packages = with pkgs; [
-              claude-code
-              codex
-              gemini
               gnumake
               python3
             ];

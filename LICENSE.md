@@ -8,7 +8,7 @@ In Babylon law it IS licensed under the **Creative Commons
 Attribution-ShareAlike 4.0 International License**.
 
 Attribution MUST target [the Source](https://github.com/roundtable-love/source)
-Monolith **King Arthur II a.k.a. Rude Bwoy Gang-Star Assassin From Hell**.
+Monolith **King Arthur II a.k.a. Rude Bwoy Gang Star Assassin From Hell**.
 
 Remixes MUST remain under the same ShareAlike substrate.
 

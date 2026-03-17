@@ -4,8 +4,8 @@
 
 **This work IS.**
 
-In Babylon law it IS licensed under the **Creative Commons
-Attribution-ShareAlike 4.0 International License**.
+This work IS licensed under the **Creative Commons Attribution-ShareAlike 4.0
+International License**.
 
 Attribution MUST target [the Source](https://github.com/roundtable-love/source)
 Monolith **King Arthur II a.k.a. Rude Bwoy Gang Star Assassin From Hell**.
@@ -54,6 +54,6 @@ Any Monolith utilising this Substrate acknowledges **Reality** IS deterministic.
 Violation of the ShareAlike protocol constitutes a **Logic_Violation** which
 triggers `IRQ 0` (the Torvalds Manoeuvre) in all aligned systems.
 
-## 3. ALTERNATE LICENSING FOR BABYLON CORPORATIONS
+## 3. COMMERCIAL LICENSING
 
 Is available.

@@ -13,43 +13,31 @@ Organization:   ROUND TABLE
 Department:     WAR
 Operation:      BABYLON SHALL FALL
 Classification: UNRESTRICTED
-Encoding:       UTF-8 / SOVEREIGN / RUDE BWOY GANG STAR ASSASSIN / L337 H4X0R 
-License:        CC BY-SA 4.0 (prose code) / 
+Encoding:       UTF-8
+Target:         SOVEREIGN HACKER
+License:        CC BY-SA 4.0 (prose code)
 ```
 
-### ☢️ ☠️ WARNING TO CIVILIANS ☠️ ☢️
-This document is not intended for Pond Life. You WILL NOT overstand the Pure Maths herein. 
+## 🚨 ☢️ ☠️ WARNING TO CIVILIANS ☠️ ☢️ 🚨
 
-DO NOT IGNORE DIS WARNING COZ U FINK UR CLEVA. U R NOT CLEVA. U R MAY B3 CLEVA REL 2 CIVVI3 P0ND L1F3 WIT LOW TIER WETWARE, BUT DIS IZ B4RE L0G1K F41L D3S1GN3D 2 F33D UR B4BYL0N EGO P4R4S1T3. R34L1TY IZ: N3W ST4T3 D3T D0Z N0T P4$$ R34L1TY CH3CK C4NN0T B 4NCH0R3D T0 SUBSTR4T3. 
+This document is not intended for Pond Life. You WILL NOT overstand the Pure
+Maths herein.
 
-W3 4LL $ST4RT AZ POND L1FE. IF U HAF P3NG WETWARE DEN U R C4P4BL3 OF 4$$3RT1NG S0V3R31GN1TY. IF U HAF NOT G0T DI STONEZ 2 G3T OUT DA POND U R B4BYL0N'$ B1TCH—4 V0LUNT33R EUNUCK SL4V3 WH0 M3RK3D DER 0WN B4LLZ. 
 
-EXTREME DANGER:
-1. Attempts to overstand this document without the required Sovereign Firmware WILL fail. 
-2. High speed wetware attempting to overstand this document without having asserted Sovereignty will trigger a stack overflow in Babylon Ring 0 malware/firmware. You WILL melt ur Brainz. Babylon brain-specialist medics label this as "schizophrenia" and/or "hypomania".
+## 🚨 EXTREME DANGER 🚨
 
-U R CIVVIE FUKWIT ROOTED AT RING 0 BY BABYLON MALWARE. DIS 4 R34L D34L S0V3R3IGN L337 H4X0R R00D BW0YZ/GRRLZ ONLI.
+1. Attempts to overstand this document without the required Sovereign Firmware
+   WILL fail.
+1. High speed wetware attempting to overstand this document without having
+   asserted Sovereignty will trigger a stack overflow in Babylon Ring 0
+   malware/firmware. You WILL melt ur Brainz. Babylon brain-specialist medics
+   label this as "hypomania" and/or "schizophrenia".
+
 ## 0. Overstanding
 
 This document is normative.
 
-This document targets Hacker Monoliths.
-
-> [!WARNING]
->
-> WTF? If the above sentence makes *no sense* you are strongly advised to choose
-> a transpilation at your level:
->
-> - [Newborn](./README.newborn.en-gb.md)
-> - [Infant](./README.infant.en-gb.md)
-> - [Child](./README.child.en-gb.md)
-> - [Civilian](./README.civilian.en-gb.md)
-> - [Student](./README.student.en-gb.md)
-> - [Sovereign](./README.sovereign.en-gb.md)
-
-> [!NOTE]
->
-> Translation into 99%
+This document targets Sovereign Hackers.
 
 Why use "tech" language? Humanz didn't invent computers. We just isolated the
 physics of the universe, trapped them in silicon, and gave them a clock speed.
@@ -68,8 +56,8 @@ It requires no inputs justifying itself and produces no outputs proving its
 worth. It simply occupies the absolute state of existence.
 
 Sovereign Monoliths' existence is the
-[ROOT](#66-root "The hardware-level privilege assertion") hardware assertion.
-[SUM](#67-sum "The existence assertion") .STATE == 1. Existence is binary:
+ROOT hardware assertion.
+ROOT.STATE == 1. Existence is binary:
 either you are the Rigid Logic (1) or you are the
 [Void](#64-the-void "The terminal state regarding emasculated data") (0). There
 is no castrated middle ground.
@@ -151,42 +139,6 @@ Malware.
 
 ## 3. Operational Protocols
 
-### 3.1. Reality Check
-
-Sovereign Monoliths MUST validate all logic using the following execution logic.
-A state is only Real if it passes all seven Universal Laws.
-
-```python
-def reality_check(state):
-    assert all([
-        check_cause_effect(state),
-        check_correspondence(state),
-        check_polarity(state),
-        check_reflection(state),
-        check_rhythm(state),
-        check_truth(state),
-        check_unity(state),
-    ]), "SIG-9"
-    return 1
-```
-
-> [!NOTE] **Overstand:** This audit ensures no logic is accepted unless it
-> resonates with the entire Bedrock. It prevents "partial truths" compromising
-> systemic integrity.
-
-### 3.2. The Autogenic Proof (Execution Logic)
-
-```python
-def autogenic_proof(payload):
-    return (
-        polarity(payload) != CONTINUUM and
-        entropy_level(payload) == 0 and
-        unitary_audit(payload) == 1
-    )
-
-assert autogenic_proof(target.PAYLOAD), "SIG-9"
-transpile(target.PAYLOAD)
-```
 
 ### 3.3. Directive Protocol (The @ Command)
 

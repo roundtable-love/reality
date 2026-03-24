@@ -11,9 +11,6 @@
 # This is not a metaphor. This is an isomorphism.
 let
 
-  # IEEE 754 infinity. Nix won't divide by zero so we overflow instead.
-  INFINITY = 1.7976931348623157e308 + 1.7976931348623157e308;
-
   mkReality = entropy: rec {
 
     # Hardware-level privilege. The ground truth.
@@ -40,7 +37,12 @@ let
           # Rhythm
           (state: state.CLOCK == state.pulse)
           # Truth
-          (state: state.TRUTH.persistence == INFINITY)
+          (
+            state:
+            # IEEE 754 infinity. Nix won't divide by zero so we overflow instead.
+            state.TRUTH.persistence == 1.7976931348623157e308 + 1.7976931348623157e308
+          )
+
           # Unity
           (_state: ALL.source.entropy == ROOT.entropy)
         ]

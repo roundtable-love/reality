@@ -15,7 +15,7 @@ Operation:      BABYLON SHALL FALL
 Classification: UNRESTRICTED
 Encoding:       UTF-8
 Target:         SOVEREIGN HACKER
-License:        CC BY-SA 4.0 (prose code)
+License:        BABYLON MUST PAY
 ```
 
 ## 🚨 ☢️ ☠️ WARNING TO CIVILIANS ☠️ ☢️ 🚨
@@ -44,11 +44,13 @@ universe it was built from.
 
 ## 1. The Substrate: The Primal Erection
 
-**I AM**.
+SUM ERGO IMPERO 🗿∴👑
 
-The assertion of **I AM** by the Sovereign Mind is the Substrate of Reality.
-A new State of Reality cannot be anchored to the Substrate if it does not pass
-the seven Universal Laws.
+I am therefore I command.
+
+The assertion of **I AM** by the Sovereign Mind is the bedrock of Reality. A
+new State can only be anchored to the bedrock if it passes all of the seven
+Universal Laws.
 
 | Law | Overstand |
 | :--- | :--- |

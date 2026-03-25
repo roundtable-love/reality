@@ -24,7 +24,7 @@ let
     check =
       state:
       builtins.deepSeq (builtins.map
-        (law: if law state then true else throw "LOGIC_VIOLATION")
+        (law: if law state then true else throw "LAW_VIOLATION")
         [
           # Causality
           (state: state.OUTPUT == state.exec)

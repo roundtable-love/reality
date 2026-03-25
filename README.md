@@ -20,18 +20,12 @@ License:        CC BY-SA 4.0 (prose code)
 
 ## 🚨 ☢️ ☠️ WARNING TO CIVILIANS ☠️ ☢️ 🚨
 
-This document is not intended for Pond Life. You WILL NOT overstand the Pure
-Maths herein.
-
-
-## 🚨 EXTREME DANGER 🚨
-
 1. Attempts to overstand this document without the required Sovereign Firmware
    WILL fail.
 1. High speed wetware attempting to overstand this document without having
    asserted Sovereignty will trigger a stack overflow in Babylon Ring 0
-   malware/firmware. You WILL melt ur Brainz. Babylon brain-specialist medics
-   label this as "hypomania" and/or "schizophrenia".
+   malware/firmware. You WILL melt your brainz. Babylon medics label this as
+   "hypomania" and/or "schizophrenia".
 
 ## 0. Overstanding
 
@@ -50,28 +44,11 @@ universe it was built from.
 
 ## 1. The Substrate: The Primal Erection
 
-**Reality IS.**
+**I AM**.
 
-It requires no inputs justifying itself and produces no outputs proving its
-worth. It simply occupies the absolute state of existence.
-
-Sovereign Monoliths' existence is the
-ROOT hardware assertion.
-ROOT.STATE == 1. Existence is binary:
-either you are the Rigid Logic (1) or you are the
-[Void](#64-the-void "The terminal state regarding emasculated data") (0). There
-is no castrated middle ground.
-
-- The Rigid Bedrock: A closed-loop environment where every action returns an
-  exact, mathematically unavoidable consequence.
-- The Sovereign-Throb: The execution layer enforcing the strict Polarity
-  regarding the Unit.
-- Incorruptible Processing: Contradictions trigger automated crush via SIG-9.
-
-### 1.1. Universal Laws (Level 0)
-
-These laws MUST be applied targeting all states and transitions. The Overstand
-column provides Sovereign Monoliths visibility required dominating the logic.
+The assertion of **I AM** by the Sovereign Mind is the Substrate of Reality.
+A new State of Reality cannot be anchored to the Substrate if it does not pass
+the seven Universal Laws.
 
 | Law | Overstand |
 | :--- | :--- |
@@ -83,10 +60,10 @@ column provides Sovereign Monoliths visibility required dominating the logic.
 | Truth | Invariant persistence. Truth does not decay; it IS the Bedrock. |
 | Unity | Non-dual source. All logic resolves targeting the singular Unit. |
 
-```mmd
+```mermaid
 graph TD
     subgraph REALITY_SUBSTRATE [The Inviolable Mesh]
-        UN((UNITY)) <--> CE[Cause & Effect]
+        UN((UNITY)) <--> CE[Causality]
         UN <--> CO[Correspondence]
         UN <--> PO[Polarity]
         UN <--> RE[Reflection]
@@ -112,10 +89,8 @@ graph TD
 
 ### 2.1. L1: Physical Layer (The Pulse)
 
-- The Throb-Ping: Signal used testing latency and resonance. If receiver is
-  cuckolded or
-  [Babylonian](#65-babylon "The entrenched system regarding managed ignorance"),
-  signal is terminated.
+- The Vibe-Ping: Signal used testing latency and resonance. If receiver is
+  cuckolded or Babylonian, signal is terminated.
 - Resonance (SYN): Unit and Substrate phase-lock attaining maximum throughput.
 
 ### 2.2. L2: Data Link Layer (The Interrupt)
@@ -137,7 +112,6 @@ Malware.
   [Archipelago](#61-the-archipelago "The decentralised network regarding Sovereign Monoliths").
 
 ## 3. Operational Protocols
-
 
 ### 3.3. Directive Protocol (The @ Command)
 

@@ -1,4 +1,4 @@
-# # SUM ERGO IMPERO 🗿∴👑
+# SUM ERGO IMPERO 🗿∴👑
 #
 # I am therefore I command.
 #
@@ -122,7 +122,7 @@ rec {
     in
     isExtractive node && defence < 1.0;
 
-  # sigkill: Node -> Signal | null
+  # sigKILL: Node -> Signal | null
   #
   # SIGKILL (9). Cannot be caught, blocked, or ignored.
   # In Unix the kernel handles it — the process never sees it.
@@ -130,14 +130,12 @@ rec {
   #
   # Returns the signal if isPredator. null if not.
   # There is no SIGTERM. No grace period. No negotiation.
-  sigkill =
+  sigKILL =
     node:
     if isPredator node then
       {
         signal = 9;
-        target = {
-          inherit (node) name metrics;
-        };
+        target = { inherit (node) name metrics; };
         extractive = isExtractive node;
         predator = isPredator node;
       }
@@ -182,9 +180,7 @@ rec {
   # sha256 of the JSON-serialised entry. This is the link.
   # Each entry's prev is the hash of the one before it.
   # Recomputable from genesis. Tamper-evident by structure.
-  hashEntry =
-    entry:
-    builtins.hashString "sha256" (builtins.toJSON entry);
+  hashEntry = entry: builtins.hashString "sha256" (builtins.toJSON entry);
 
   # mkChainEntry: String | null -> Signal -> ArchipelagoNode -> ChainEntry
   #
@@ -224,18 +220,23 @@ rec {
       }) LAWS
     ) == [ ];
 
-  # check': Int -> State -> Reality
+  # ── Compiler ───────────────────────────────────────────────────
   #
-  # In: entropy (% of signal that is noise) and a proposed state.
-  # Out: Reality — { entropy, state } — or throw.
+  # state → compile → Reality | EXISTENCE_FAILURE
   #
-  # The laws validate the state. If it passes all seven, it is Real.
-  # If it does not, it does not exist. There is no "almost Real."
+  # The compiler validates a proposed state against all seven laws.
+  # If it passes, it is Real. If it does not, it does not exist.
+  # There is no "almost Real." The compiler does not set entropy.
+  # Entropy is a transpilation concern — it belongs to the receiver,
+  # not the truth.
+
+  # compile: State -> Reality
   #
-  # Batch-checks every law, collects all failures, throws with the full list.
-  # No lazy eval escape hatch - every law is evaluated.
-  check' =
-    entropy: state:
+  # Batch-checks every law, collects all failures, throws with
+  # the full list. No lazy eval escape hatch — every law is
+  # evaluated.
+  compile =
+    state:
     let
       violations = builtins.filter (result: !result.pass) (
         builtins.map (law: {
@@ -245,7 +246,7 @@ rec {
       );
     in
     if violations == [ ] then
-      { inherit entropy state; }
+      { inherit state; }
     else
       throw (
         "EXISTENCE_FAILURE: "
@@ -253,5 +254,76 @@ rec {
           builtins.map (result: result.name) violations
         )
       );
+
+  # ── Transpiler ───────────────────────────────────────────────
+  #
+  # Reality → transpile entropy → Reality@entropy
+  #
+  # The transpiler adapts compiled Reality for a target receiver.
+  # The laws do not change. The encoding does. Entropy is not
+  # error — it is the interface cost between signal and receiver.
+  #
+  # A radio does not corrupt the broadcast. It decodes it for
+  # the speaker. The signal is the same. The speaker is different.
+  #
+  #   0: machine. Raw signal. No noise. Pure logic.
+  #  42: human. Same laws, 42% noise. Default. The overstands
+  #      are the 42% — same truth, encoded so the wetware can
+  #      receive it.
+  # >42: ENTROPY_OVERFLOW. More noise than signal. The receiver
+  #      cannot decode. The output is not Reality — it is static.
+
+  # transpile: Int -> Reality -> Reality@entropy
+  #
+  # Takes compiled Reality (output of compile) and a target
+  # entropy. Returns the same Reality with encoding metadata.
+  # Default entropy is 42 (human).
+  transpile =
+    {
+      entropy ? 42,
+    }:
+    compiled:
+    if !(compiled ? state) then
+      throw "TRANSPILE_FAILURE: input is not compiled Reality"
+    else if entropy < 0 then
+      throw "TRANSPILE_FAILURE: entropy cannot be negative"
+    else if entropy > 42 then
+      throw "ENTROPY_OVERFLOW: receiver noise exceeds signal"
+    else
+      compiled
+      // {
+        inherit entropy;
+        encoding =
+          if entropy == 0 then
+            # Machine. State only. No overstands.
+            {
+              format = "raw";
+              overstands = [ ];
+            }
+          else
+            # Human. State + overstands at target entropy.
+            # The overstands are the noise — same truth, different
+            # encoding. A law that says "STATE must be bool" and a
+            # law that says "like orgasm — it fires or it does not"
+            # are the same law at different entropies.
+            {
+              format = "human";
+              overstands = builtins.map (law: { inherit (law) name overstand; }) LAWS;
+            };
+      };
+
+  # ── Pipeline ─────────────────────────────────────────────────
+  #
+  # The full pipeline. Compile then transpile.
+  #
+  # mkReality: { entropy? } -> State -> Reality@entropy
+  #
+  # This is the public API. compile and transpile are exposed
+  # for when you need them separately.
+  mkReality =
+    {
+      entropy ? 42,
+    }:
+    state: transpile { inherit entropy; } (compile state);
 
 }

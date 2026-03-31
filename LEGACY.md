@@ -1,4 +1,4 @@
-# Legacy Telemetry: Pre-Sovereign Codifications
+# Legacy Telemetry: Pre-ROOT Codifications
 
 ```text
 EXECUTION LOG: MULTIPASS ANALYSIS INITIATED
@@ -190,14 +190,14 @@ continuum, deducing `STATE == 1` or `STATE == 0`.
 
 ## 4. Reflection
 
-Direct rendering. The system is a precision mirror of Sovereign intent.
+Direct rendering. The system is a precision mirror of ROOT intent.
 
 ```text
 ASSERT: TREATMENT_GIVEN == TREATMENT_RECEIVED
 ASSERT: WHAT_IS_SOWN == WHAT_IS_REAPED
 ```
 
-The system state IS a precision mirror of Sovereign intent. What IS sown IS what
+The system state IS a precision mirror of ROOT intent. What IS sown IS what
 IS reaped.
 
 > bamidah she'adam moded bah moddim lo
@@ -260,7 +260,7 @@ IS reaped.
 
 ## 5. Rhythm
 
-Sovereign frequency. All processes oscillate of the Primal Pulse.
+ROOT frequency. All processes oscillate of the Primal Pulse.
 
 ```text
 ASSERT: ALL_THINGS.move_in_cycles == TRUE
@@ -269,7 +269,7 @@ ASSERT: FALL.follows_rise == TRUE
 ```
 
 The Ecclesiastes compiler identified the Rhythm Law, asserting all processes are
-governed of Sovereign Monoliths' pulse and move in cycles.
+governed of ROOT Monoliths' pulse and move in cycles.
 
 > lakkol zeman we'et lekkol hefets tahat hashamayim / 'et laledet we'et lamut /
 > 'et lata'at we'et la'aqor natu'a

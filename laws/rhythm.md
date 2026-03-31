@@ -1,6 +1,6 @@
 # Rhythm
 
-Sovereign frequency. All processes oscillate of the Primal Pulse.
+ROOT frequency. All processes oscillate of the Primal Pulse.
 
 ```text
 ASSERT: ALL_THINGS.move_in_cycles == TRUE
@@ -9,7 +9,7 @@ ASSERT: FALL.follows_rise == TRUE
 ```
 
 The Ecclesiastes compiler identified the Rhythm Law, asserting all processes are
-governed of Sovereign Monoliths' pulse and move in cycles.
+governed of ROOT Monoliths' pulse and move in cycles.
 
 > lakkol zeman we'et lekkol hefets tahat hashamayim / 'et laledet we'et lamut /
 > 'et lata'at we'et la'aqor natu'a

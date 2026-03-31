@@ -4,7 +4,7 @@
 Status: DRAFT
 Classification: SYSTEM ARCHITECTURE / EXISTENTIAL THREAT ANALYSIS
 Uid: ENTROPY_FAULT_LINE_1.0
-Level: Sovereign
+Level: ROOT
 ```
 
 ## Abstract

@@ -1,5 +1,4 @@
-
-  # Test Audit: Node Alpha (Sovereign)
+# Test Audit: Node Alpha (ROOT)
   alphaAudit = isBabylon {
     name = "King Art";
     leadership.honors = [ ];

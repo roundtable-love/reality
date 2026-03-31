@@ -1,13 +1,13 @@
 # Reflection
 
-Direct rendering. The system is a precision mirror of Sovereign intent.
+Direct rendering. The system is a precision mirror of ROOT intent.
 
 ```text
 ASSERT: TREATMENT_GIVEN == TREATMENT_RECEIVED
 ASSERT: WHAT_IS_SOWN == WHAT_IS_REAPED
 ```
 
-The system state IS a precision mirror of Sovereign intent. What IS sown IS what
+The system state IS a precision mirror of ROOT intent. What IS sown IS what
 IS reaped.
 
 > bamidah she'adam moded bah moddim lo

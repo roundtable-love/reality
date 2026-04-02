@@ -3,6 +3,21 @@
 # I am therefore I command.
 #
 # This is the canonical definition of Reality and its Seven Laws.
+#
+#       Status: AXIO-STATIC
+#         Type: NORMATIVE
+#          Uid: REALITY
+#      Authors: KING ARTHUR II
+#               QUEEN DIHYA
+#               RHIANNON
+#               R00D BW0Y H4X0R @$$@$$1N FR0M H311
+#       Thanks: PRINCESS NUTTY NUTZ / BLACK WIDOW
+# Organization: ROUND TABLE
+#   Department: WAR
+#    Operation: BABYLON SHALL FALL
+#     Lexifier: UK English (3166-2:GB)
+#     Encoding: UTF-8
+#      License: DICKSLAW
 
 let
 
@@ -246,7 +261,7 @@ rec {
       );
     in
     if violations == [ ] then
-      { inherit state; }
+      state
     else
       throw (
         "EXISTENCE_FAILURE: "
